@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk';
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-inline-size: 1440px;
+    background-color: hsl(221, 100%, 96%);
+}
+
+img{
+    max-inline-size: 100%;
+    display: block;
+}
+
+table{
+    max-inline-size: 100%;
+    border-spacing: 20px;
+}
+
+span{
+    font-weight: 700;
+    margin:5px;
+    color: hsl(241, 100%, 89%);
+}
+
+.wrapper{
+    background-color: hsl(221, 100%, 96%);
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    padding-right: 30px;
+    max-inline-size: 650px;
+    border-radius: 20px;
+    gap: 20px;
+    box-shadow: 10px 10px 20px hsl(224, 30%, 27%);
+    @media (width<800px){
+        flex-wrap: wrap;
+        padding-right: 0;
+        max-inline-size: 350px;
+        margin-top: 0;
+    }
+}
+
+.summary{
+    color: hsl(0, 0%, 100%);
+    padding: 26px;
+    text-align: center;
+    max-inline-size: 350px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+
+}
+
+.average-score{
+    padding: 30px;
+    border-radius: 50%;
+    color: hsl(241, 100%, 89%);
+    margin: 0 auto;
+    max-inline-size: 170px;
+    min-block-size: 170px;
+    text-align: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.average{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 2.9rem;
+    line-height: 70px;
+}
+
+.results{
+    max-inline-size: 300px;
+    padding: 19px;
+}
+
+
+
+.icons{
+    max-inline-size: 60px;
+}
+
+.category{
+    transform: translateX(-50%);
+}
+
+
+button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    background-color: hsla(242, 87%, 16%, 0.8);
+    color: hsl(221, 100%, 96%);
+    inline-size: 100%;
+    block-size: 50px;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution{
+    margin-top: 100px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:hsl(252, 100%, 67%);
+}
+
+a:hover{
+    color: hsl(241, 81%, 54%);
+}
+
