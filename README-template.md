@@ -37,8 +37,8 @@ Solved by using conditional logic in JavaScript to assign inline colors directly
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/jeff20501/resultify)
+- Live Site URL: [Add live site URL here](https://resultifypage.netlify.app/)
 
 ## My process
 
